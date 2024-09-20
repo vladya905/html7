@@ -3,7 +3,7 @@
     <defs>
         <symbol id="burger" viewBox="0 0 47 32">
             <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4.3636"
-                d="M1.961 29.154h42.965M1.961 15.615h42.965M1.961 2.077h42.965"></path>
+                d="M1.96 29.154h42.965M1.96 15.615h42.965M1.96 2.077h42.965"></path>
         </symbol>
         <symbol id="instagram" viewBox="0 0 32 32">
             <path fill="#f4f4fd" style="fill: var(--color1, #f4f4fd)"

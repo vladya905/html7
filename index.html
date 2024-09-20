@@ -36,10 +36,17 @@
     <!-- heder -->
     <header class="page-header">
       <div class="container header-container">
-        <a href="./index.html" class="logo"
+        <div class="mob-header"><a href="./index.html" class="logo"
           >Web<span class="header-span">Studio</span></a
         >
-        <nav>
+        <button type="button" class="burger-menu" data-menu-open><svg class="burger" width="32px" height="22px">
+          <use href="./images/icons.svg#burger"></use>
+        </svg></button></div>
+        <div class="menu is-hidden" data-menu>
+          <button class="modal-close" type="button" data-menu-close>
+          <svg class="close-ico"><use href="./images/icons.svg#icon-close"></use></svg>
+      </button>
+          <nav>
           <ul class="site-nav list">
             <li><a class="link current" href="./index.html">Studio</a></li>
             <li><a class="link" href="./portfolio.html">Portfolio</a></li>
@@ -57,7 +64,8 @@
               <a class="link" href="tel:+110001111111">+11 (000) 111-11-11</a>
             </li>
           </ul>
-        </address>
+        </address></div>
+        
       </div>
     </header>
     <!-- main -->
@@ -464,6 +472,7 @@
 
     </div>
       <script src="./js/modal.js"></script>
+      <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
 
